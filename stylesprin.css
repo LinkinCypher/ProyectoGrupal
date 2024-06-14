@@ -1,0 +1,98 @@
+/* Estilo general del cuerpo */
+body {
+  font-family: Arial, sans-serif; /* Fuente legible para el cuerpo del texto */
+  margin: 0; /* Eliminar márgenes predeterminados del cuerpo */
+  padding: 0; /* Eliminar relleno predeterminado del cuerpo */
+  background-color: #fbf7f3; /* Color de fondo claro y agradable */
+}
+
+/* Encabezado */
+header {
+  text-align: center; /* Centrar el contenido del encabezado */
+  padding: 20px 0; /* Agregar espacio superior e inferior */
+  background-color: #fff; /* Fondo blanco para el encabezado */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil para destacar el encabezado */
+}
+
+h1 {
+  font-size: 48px; /* Tamaño de fuente más grande para el título principal */
+  color: #1c0dc2; /* Color azul para el título principal */
+  margin: 0; /* Eliminar márgenes predeterminados del título */
+}
+
+p {
+  font-size: 16px; /* Tamaño de fuente legible para el texto general */
+  line-height: 1.5; /* Aumentar el espacio entre líneas para mejorar la legibilidad */
+  color: #333; /* Color gris oscuro para el texto general */
+}
+
+/* Sección de bienvenida */
+#bienvenido {
+  padding: 40px 0; /* Agregar espacio superior e inferior */
+}
+
+h2 {
+  font-size: 36px; /* Tamaño de fuente grande para el subtítulo */
+  color: #f80707; /* Color rojo para el subtítulo */
+  margin-bottom: 20px; /* Agregar espacio inferior después del subtítulo */
+}
+
+button {
+  background-color: #ededee; /* Color azul para el botón */
+  color: #fff; /* Texto blanco en el botón */
+  padding: 12px 20px; /* Aumentar el relleno del botón */
+  border: none; /* Eliminar borde del botón */
+  border-radius: 5px; /* Esquinas redondeadas para el botón */
+  cursor: pointer; /* Indicar que es un botón al pasar el cursor */
+  transition: background-color 0.3s ease; /* Efecto de transición al pasar el cursor */
+}
+
+button:hover {
+  background-color: #007bff; /* Color azul más oscuro al pasar el cursor */
+}
+
+/* Sección de proyectos */
+#proyectos {
+  padding: 40px 0;
+}
+
+h3 {
+  font-size: 24px; /* Tamaño de fuente mediano para los títulos de productos */
+  color: #1c0dc2; /* Color azul para los títulos de productos */
+  margin-bottom: 10px; /* Agregar espacio inferior después de los títulos de productos */
+}
+
+ul {
+  list-style: none; /* Eliminar viñetas predeterminadas de la lista */
+  padding: 0;
+}
+
+li {
+  margin-bottom: 20px; /* Agregar espacio inferior entre elementos de la lista */
+}
+
+a {
+  color: #1c0dc2; /* Color azul para los enlaces */
+  text-decoration: none; /* Eliminar subrayado predeterminado de los enlaces */
+}
+
+a:hover {
+  text-decoration: underline; /* Agregar subrayado al pasar el cursor sobre los enlaces */
+}
+
+/* Sección de foros */
+#foros {
+  padding: 40px 0;
+}
+
+/* Sección de recursos */
+#recursos {
+  padding: 40px 0;
+}
+
+/* Pie de página */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #f5f5f5; /* Color gris claro para el pie de página */
+}
